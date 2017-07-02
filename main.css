@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: AntiqueWhite;
+}
+
+canvas {
+  display: block;
+  background: #F0DFD0;
+}
+/*#FBE2CC*/
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.col {
+  border-radius: 30px;
+  width: 50px;
+  height: 50px;
+}
+
+.colors {
+  margin: 0 auto;
+  width: 200px;
+  padding-top: 30px;
+}
+
+.button {
+  margin: auto;
+  padding-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+#btn {
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  background-color: inherit;
+}
+
+#blue {
+  background-color: #68C0CE;
+}
+
+#red {
+  background-color: #EA8776;
+}
+
+#green {
+  background-color: salmon;;
+}
+
+#yellow {
+  background-color: #F0A95D;
+}
